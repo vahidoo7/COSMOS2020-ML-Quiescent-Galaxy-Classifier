@@ -24,8 +24,8 @@ This repository contains:
                  'uvista_j_mag', 'uvista_h_mag', 'uvista_ks_mag', 'irac_ch1_mag',
                  'irac_ch2_mag', 'lp_zbest', 'lp_mass_med', 'lp_sfr_med', 'is_qg_ml',
                  'is_qg_nuvrj'
-  - **Column descriptions**: COLUMN_DESCRIPTIONS.ipynp
+  - **Column descriptions**: COLUMN_DESCRIPTIONS.ipynb
 
 ### 3. Usage (Reproduce results)
-- **File**: Quiescent_Galaxy_Classifier_Usage_Example.ipynp
+- **File**: Quiescent_Galaxy_Classifier_Usage_Example.ipynb
 - **Needed Libraries**: Pandas and joblib
