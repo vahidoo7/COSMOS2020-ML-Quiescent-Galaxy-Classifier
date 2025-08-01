@@ -9,3 +9,23 @@ This repository contains:
 
 *Developed for the study:*  
 *"Machine Learning Classification of COSMOS2020 Galaxies: Quiescent vs. Star-Forming"*  
+
+---
+
+## Repository Contents  
+
+### 1. Trained Models  
+- `ML_Model_Classifier.pkl` - ML model classifer  
+- `ML_Model_Scaler.pkl`     - ML model scaler fitted on training data
+
+### 2. Classified Catalog  
+- `COSMOS2020_ml_classifications.csv`
+  - **Columns**: 'ra', 'dec', 'cfht_u_mag', 'acs_f814w_mag', 'uvista_y_mag',
+                 'uvista_j_mag', 'uvista_h_mag', 'uvista_ks_mag', 'irac_ch1_mag',
+                 'irac_ch2_mag', 'lp_zbest', 'lp_mass_med', 'lp_sfr_med', 'is_qg_ml',
+                 'is_qg_nuvrj'
+  - **Column descriptions**: COLUMN_DESCRIPTIONS.ipynp
+
+### 3. Usage (Reproduce results)
+- **File**: Quiescent_Galaxy_Classifier_Usage_Example.ipynp
+- **Needed Libraries**: Pandas and joblib
